@@ -1,0 +1,456 @@
+html{
+  font-size: 62.5%; 
+}
+body{
+     /* font-family: "Roboto", serif;  */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color:#F9F7F4; 
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+  /* ===========================================HEDER=========================================== */
+.header1{
+  background-image:url(img/header-img.png) ;
+  /* width: 185rem ;   */
+  width: 100%;  
+  height:clamp(46rem,89vw,83.1rem); 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header2{
+  display: flex;
+  margin: auto; 
+  justify-content: space-between;
+}
+
+.header2 .YourTour{
+  font-size: clamp(2rem,3vw,4rem);
+  margin-top: 1.5rem;
+  margin-left:clamp(4rem,10%,37.6rem);
+  /* margin-right: 0rem;
+  margin-bottom: 0rem; */
+  color:#FFFFFF ;
+  font-weight: 900;
+}
+.header2 p{
+  font-size: clamp(1.6rem,2vw,2rem); 
+  margin-top:clamp(1.8rem,3vw,3rem);
+  margin-right: clamp(4rem,10%,37.6rem);
+  margin-bottom: 0rem;
+  color: #FFFFFF;
+}
+
+.header2 nav{
+  display: flex;
+  flex-wrap:wrap;
+  gap: 5rem;
+  margin-top: 3rem;
+}
+
+.header2 nav a {
+  font-size:clamp(1.6rem,2vw,2rem);
+  text-decoration: none;
+  color:#FFFFFF;
+}
+
+.header2 nav a:hover{
+  text-decoration:underline;
+}
+
+.header3 {
+  text-align: center;
+}
+
+.header3 h1 {
+  font-size: clamp(4rem,9vw,9.6rem);
+  color:#FFFFFF ;
+  width:clamp(10rem,80vw,53.8rem);
+  margin: auto;
+  margin-top:clamp(6rem,10vw,11.9rem);
+}
+
+.header3 p{
+  font-size: clamp(1.2rem,2vw,2rem);
+  color: #FFFFFF;
+  max-width: 55.2rem; 
+  margin: auto;
+  margin-top: 5rem;
+}
+
+.header3 button {
+  font-size:clamp(1.5rem,2vw,1.7rem);
+  margin-top: 5rem;
+  border-radius: 1rem;
+  border:0rem;
+  padding-top: 0.5rem; padding-bottom: 0.5rem; padding-left:2rem; padding-right:2rem;
+}
+
+.header3 button:hover{
+  background-color: #EFA501;
+  cursor: pointer;
+}
+/* ===========================================NAW============================================================== */
+
+.NaV {
+  text-align: center; 
+}
+
+.NaV h2{
+  font-size:clamp(2.5rem,4vw,5.9rem);
+  color:#1B1F2B;
+  margin-top: 13.5rem;
+  margin-bottom: 3.5rem; 
+}
+
+.NaV nav{display: flex; justify-content: center; gap:3rem; flex-wrap: wrap;}
+
+.NaV nav a{
+  text-decoration: none;
+  color:#1B1F2B;
+  font-size:clamp(1.5rem,3vw,2.3rem);
+  font-weight:700;
+}
+
+.NaV nav a:hover{
+  text-decoration:underline;
+}
+
+.rrrrr{
+  color: #EFA501 !important;
+  text-decoration:underline !important;
+}
+
+/* =================================================SECTION================================================== */
+
+.section{
+  display: grid;
+  grid-template-columns: repeat(3,37rem);
+  grid-template-rows: repeat(2,53.1rem);
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 10rem;
+}
+
+.cell1{
+  background-image:linear-gradient(#0004,#0004), url(./img/card\ tour\ photo-1.jpg);
+  border-radius: 5rem;
+  background-size: cover;  
+}
+.cell1 h3{
+  font-size:clamp(2.1rem,4vw,3.5rem);
+  color:#FFFFFF;
+  margin-left:5rem;
+}
+.cell1 p{
+  font-size:clamp(1.2rem,3vw,1.7rem);
+  color:#FFFFFF; 
+  margin-top:1.6rem;
+  margin-left:5rem;
+}
+.cell1  a{
+  font-size:clamp(1.5rem,2vw,2.3rem);
+  text-decoration:none;
+  color:#FFFFFF;
+  position: absolute;
+  top:39.7rem;
+  left:3rem;
+  padding: 0.7rem 2rem 0.7rem 2rem;
+}
+.cell1 a:hover{
+  background-color: #286562;
+  padding: 0.7rem 2rem 0.7rem 2rem;
+  border-radius: 5rem;
+}
+.cell1 div{
+  margin-top:5rem;
+  /* margin-left:5rem; */
+  margin-right:5rem;
+  position: relative; 
+}
+
+.cell1:nth-child(2){
+  background-image:linear-gradient(#0004,#0004),url(./img/card\ tour\ photo-2.jpg) ;
+}
+
+.cell1:nth-child(3){
+  background-image:linear-gradient(#0004,#0004),url(./img/card\ tour\ photo-3.png);
+}
+
+.cell1:nth-child(4){
+  background-image:linear-gradient(#0004,#0004),url(./img/card\ tour\ photo-4.jpg);
+}
+
+.cell1:nth-child(5){
+  background-image:linear-gradient(#0004,#0004),url(./img/card\ tour\ photo-5.jpg);
+}
+
+.cell1:nth-child(6){
+  background-image:linear-gradient(#0004,#0004),url(./img/card\ tour\ photo-6.jpg);
+}
+/* ============================================FORM===================================================== */
+
+
+.forma-h2-p h2{
+  font-size:clamp(2.5rem,4vw,5.9rem);
+  color:#1B1F2B;
+  margin-top: 13.5rem;
+  text-align: center;
+}
+
+.forma-h2-p p{
+  font-size:clamp(1.5rem,2vw,2rem);
+  color:#A6A6A6;
+  margin-top:3rem;
+  text-align: center;
+}
+
+.error{
+  border: 3px solid red !important; 
+}
+
+
+.in label{
+  color:#1B1F2B;
+  font-weight:400;
+  font-size:clamp(1.6rem,3vw,2rem);
+  position: relative; 
+}
+.in input{
+  margin-top:0.8rem;
+}
+.in input[placeholder]{
+  padding-left:2rem;
+  font-size:clamp(1.2rem,2vw,2rem);
+}
+.in {
+  display: grid;
+  grid-template-columns: repeat(2,50rem);
+  /* grid-template-rows: repeat(4,10.4rem) repeat(1,8rem);   */
+  justify-content: center; 
+  column-gap: 3rem;
+  row-gap:3.3rem; 
+  
+}
+.in .dataOT{
+  grid-column:1/2;
+  grid-row:3/4;
+}
+.in .email{
+  grid-column:1/2;
+  grid-row:2/3;
+}
+.forma2{
+  background-color:#FFFFFF;
+  width: 117rem;
+  /* height: 98.6rem; */
+  border-radius:5rem;
+  padding: 7rem 7rem 7rem 7rem;
+  margin: auto;
+  margin-top:10rem;
+}
+
+.forma2 .in input{
+  /* width: 50rem; */
+  width:100%;
+  height: 6.8rem;
+  border-radius: 1rem;
+  border: none;
+  background-color:#F4F0E9;
+}
+
+.Input-Select{
+  display: flex;
+  width:40rem;
+  align-items: end;
+}
+
+.UlMenu{display: none;}
+
+#ULMenuId{
+  /* background: #3B7E7B;  */
+  background: #F4F0E9;
+  position: absolute; 
+  z-index:2;
+  list-style-type: none; 
+  width:30rem ;
+  height:20rem ;
+  font-size:2rem;
+  overflow: auto;
+  padding:0.5rem;
+  cursor: pointer;
+  border: #000000 solid 0.2rem;
+  border-radius:1rem;
+  right:0rem;
+  text-align: center;
+}
+
+.DivMenu{position: relative;}
+
+#ULMenuId li{
+  padding-top:2rem;
+}
+
+#ULMenuId span{color: #7c7c7c;}
+
+#text{
+  width: 45rem;
+  border-top-right-radius:0rem;
+  border-bottom-right-radius:0rem;
+}
+
+#ButtonMenu{
+  width:5rem;
+  height: 6.8rem;
+  border: none;
+  border-top-right-radius:1rem;
+  border-bottom-right-radius:1rem;
+  background-color:#F4F0E9;
+  font-size: clamp(2.2rem,2vw,2.5rem);
+  color: #286562;
+}
+
+
+.Rotate p{transform: rotate(180deg); transition: 0.3s;}
+
+
+
+
+.forma2 .in .coments .inputcrid{
+  width:103rem;
+  height:15.2rem;
+  resize:none;
+  border-radius: 1rem;
+  background: #F4F0E9; 
+  border: none; 
+  padding: 0rem 0.5rem 0rem 0.5rem;
+}
+
+.radio{
+  display: inline-block;   
+  margin-top:3.3rem;
+}
+.Div-input_radio{
+  display: flex;
+  padding-top: 1rem;
+  align-items: center;
+}
+.radio p {
+  color:#1B1F2B;
+  font-weight:400;
+  font-size:clamp(1.6rem,2vw,2rem);
+  text-align:left;
+}
+.radio label{
+  color:#1B1F2B;
+  font-weight:400;
+  font-size:clamp(1.6rem,2vw,2rem);
+  /* margin: 0rem 3.1rem 0rem 1.1rem;  */
+  margin-right: 2rem;
+}
+.radio [type="radio"]{
+  width:2.6rem;
+  height:2.6rem; 
+  margin-right:0.5rem;
+}
+.checkbox{
+  display: flex;
+  gap:1.9rem;
+  padding-top:3rem;
+}
+.checkbox label{
+  color:#7c7c7c;
+  font-size:clamp(1.2rem,2vw,1.7rem);
+}
+
+.checkbox [type="checkbox"]{
+  width:clamp(1.8rem,3vw,2.6rem);
+  height:clamp(1.8rem,3vw,2.6rem);
+}
+.checkbox span{
+  color:#000000;
+  font-weight:400;
+  font-size:clamp(1.2rem,2vw,1.7rem);
+}
+.checkbox span:hover{
+  text-decoration: underline;
+}
+.button-first_button-last{
+  display: flex;
+  justify-content:start;
+  gap:3.3rem;
+  padding-top:3.3rem;
+}
+
+.button-first{
+background-color:#286562;
+font-size:clamp(1.2rem,2vw,2rem);
+color:#FFFFFF;
+border-radius:1rem;
+padding: 2% 7%;
+border: none;
+}
+.button-last{
+  background-color:#E0F0E5;
+  font-size:clamp(1.2rem,2vw,2rem);
+  color:#286562;
+  border-radius:1rem;
+  padding: 2% 7%;
+  border:none;
+}
+.button-first:hover{
+  background-color:#3B7E7B;
+  cursor: pointer;
+}
+.button-last:hover{
+  background-color:#F1F3F2;
+  cursor: pointer;
+}
+
+/* ======================================================================================= */
+
+/* .paragraph h2{
+  color:#1B1F2B;
+  font-size:5.9rem;
+  text-align:center;
+  margin-top:13.5rem;
+}
+.paragraph p{
+  color:#A6A6A6;
+  font-size:2rem;
+  text-align:center;
+  margin:3rem 74.8rem 10rem 74.8rem;
+}
+.foto1{
+  display: flex;
+  justify-content: center;
+  gap:2rem; 
+}
+.foto1 img{
+  border-radius:5rem;
+}
+
+.foto2{
+  display:flex;
+  gap:2rem;
+  margin-top:2rem;
+  justify-content: center;
+}
+.foto2 img{
+  border-radius:5rem;
+}
+
+.foto3{
+  display:flex;
+  gap:2rem;
+  margin-top:2rem;
+  justify-content: center;
+}
+.foto3 img{
+  border-radius:5rem;
+} */
