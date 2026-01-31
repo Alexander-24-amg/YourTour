@@ -310,3 +310,11 @@
 .element-text p{text-align: center;}
 }
 /* ================================================================================================================== */
+
+@media(max-width:532px){
+    footer{
+    flex-direction: column;
+    align-items: center;
+    gap:2rem;
+}
+}
