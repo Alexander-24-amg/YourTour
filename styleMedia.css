@@ -298,3 +298,15 @@
     .text2 h3{width:60%; height: auto;}
     .text3 h3{width:60%; height: auto;}
 }
+/* =================================Aside============================================================================= */
+
+@media(max-width:640px){
+    .aside-elements{
+    flex-direction: column;
+    gap: 2rem;
+    margin-top:20%;
+}
+.element-text h3{text-align: center;}
+.element-text p{text-align: center;}
+}
+/* ================================================================================================================== */

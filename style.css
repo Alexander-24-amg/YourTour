@@ -414,7 +414,7 @@ border: none;
 
 /* ======================================================================================= */
 /* width:443; height:301;  width:350; height:236; */
-/* ======================================================================================= */
+/* ===============================Bacgraund======================================================== */
 
 
  .heading-h2-p h2{
@@ -594,4 +594,35 @@ cursor:pointer;
 .telegramfacebook a:hover{
   text-decoration:underline;
   cursor:pointer;
+}
+/* =====================================Aside===================================================================== */
+
+.element-foto img{
+  border-radius:5rem; 
+  max-width:clamp(17rem,25vw,37rem); 
+  max-height:clamp(17rem,25vw,37rem);
+}
+
+.element-text h3{
+ font-size:clamp(2rem,3vw,3.5rem); color:#1B1F2B;}
+
+.element-text p{
+  font-size:clamp(1.4rem,2vw,2rem);
+  color:#A6A6A6;
+  text-align:left;
+  padding-top:2rem;
+}
+
+.element-text span{color:#1B1F2B;}
+
+.element-text span:hover{
+  text-decoration:underline; cursor:pointer;}
+
+.aside-elements{
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ margin-top:13.5rem;
+ margin-bottom:13.5rem;
+ gap:3rem;
 }
