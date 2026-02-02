@@ -414,6 +414,59 @@ border: none;
 
 /* ======================================================================================= */
 /* width:443; height:301;  width:350; height:236; */
+
+.Photo-Container h2{
+  color:#1B1F2B;
+  font-size:clamp(2.5rem,4vw,5.9rem);
+  text-align:center;
+  margin-top:13.5rem;
+}
+.Photo-Container p{
+  color:#A6A6A6;
+  font-size:clamp(1.5rem,2vw,2rem);
+  text-align:center;
+  margin-top:3rem;
+}
+
+.Photo-Container_Block{margin-top:10rem; display: flex; flex-direction: column; gap:2rem;}
+
+.Photo-Container_First{
+  display: flex;
+  justify-content: center;
+  gap:2rem;
+  /* margin-left:1.5rem;
+  margin-right:1.5rem;  */
+}
+.Photo-Container_First img{
+  border-radius:clamp(2rem,3vw,5rem);
+  width:clamp(14.3rem,23vw,44.3rem);
+  /* height:clamp(9rem,23vw,30.1rem); */
+  /* object-fit:cover; */
+}
+
+.Photo-Сontainer_Average{
+  display:flex;
+  gap:2rem;
+  /* margin-top:2rem; */
+  justify-content: center;
+}
+.Photo-Сontainer_Average img{
+  border-radius:clamp(2rem,3vw,5rem);
+  width: clamp(12rem,18vw,35rem);
+  /* height:clamp(13.6rem,1vw,23.6rem) ; */
+}
+
+.Photo-Сontainer_Last{
+  display:flex;
+  gap:2rem;
+  /* margin-top:2rem; */
+  justify-content: center;
+}
+.Photo-Сontainer_Last img{
+  border-radius:clamp(2rem,3vw,5rem);
+  width: clamp(14.3rem,23vw,44.3rem);
+  /* height:clamp(10.1rem,1vw,30.1rem); */
+}
 /* ===============================Bacgraund======================================================== */
 
 

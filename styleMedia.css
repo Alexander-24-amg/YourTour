@@ -193,6 +193,47 @@
     .forma2{width: 73%;}
     #ULMenuId{ width:17.5rem;}
 }
+
+/* =========================================Foto============================================================================================= */
+@media(max-width:1100px){
+    .Photo-Container_First img{width: clamp(14.3rem,30vw,44.3rem);}
+    .Photo-Container_First img:nth-child(4) {
+        display: none;
+    }
+
+
+    .Photo-Сontainer_Average img {width:clamp(12rem,22vw,35rem);}
+    .Photo-Сontainer_Average img:nth-child(5){
+        display: none;
+    }
+
+
+    .Photo-Сontainer_Last img{width: clamp(14.3rem,30vw,44.3rem);}
+    .Photo-Сontainer_Last img:nth-child(4){
+        display: none;
+    }
+}
+
+@media(max-width:640px){
+    .Photo-Container_Block{gap:1rem; margin-top:8rem;}
+
+    .Photo-Container_First{gap:1rem;} 
+    .Photo-Container_First img:nth-child(3) {
+        display: none;
+    }
+
+    .Photo-Сontainer_Average{gap:1rem;}
+    .Photo-Сontainer_Average img {width:clamp(9rem,19vw,35rem);}
+    .Photo-Сontainer_Average img:nth-child(4){
+        display: none;
+    }
+
+
+    .Photo-Сontainer_Last {gap:1rem;} 
+    .Photo-Сontainer_Last img:nth-child(2){
+        display: none;
+    }
+}
 /* =============================================Bacgraund===================================================================================== */
 
 @media(max-width:1400px){
