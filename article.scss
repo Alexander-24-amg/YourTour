@@ -8,7 +8,7 @@ text-align: center;
         @media(max-width:640px){width:20rem; margin: auto;}
         }
         p{
-        font-size:clamp(1.5rem,2vw,2rem);
+        font-size:clamp(1.3rem,2vw,2rem);
         color:#A6A6A6;
         margin-top:3rem; 
         // margin: 3rem 75.0rem 0rem 75.0rem;
@@ -26,6 +26,7 @@ margin-top:10rem;
     flex-direction: column;
     align-items: center;
 }
+@media(max-width:640px){margin-top:5rem;}
 }
 
 .article1{

@@ -20,7 +20,8 @@ body{
   width: 100%;  
   height:clamp(46rem,89vw,83.1rem); 
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
+  /* object-fit:cover; */
 }
 
 .header2{
@@ -204,7 +205,7 @@ body{
 }
 
 .forma-h2-p p{
-  font-size:clamp(1.5rem,2vw,2rem);
+  font-size:clamp(1.3rem,2vw,2rem);
   color:#A6A6A6;
   margin-top:3rem;
   text-align: center;
@@ -350,7 +351,6 @@ body{
   color:#1B1F2B;
   font-weight:400;
   font-size:clamp(1.6rem,2vw,2rem);
-  /* margin: 0rem 3.1rem 0rem 1.1rem;  */
   margin-right: 2rem;
 }
 .radio [type="radio"]{
@@ -412,8 +412,8 @@ border: none;
   cursor: pointer;
 }
 
-/* ======================================================================================= */
-/* width:443; height:301;  width:350; height:236; */
+/* ================================Foto======================================================= */
+
 
 .Photo-Container h2{
   color:#1B1F2B;
@@ -423,7 +423,7 @@ border: none;
 }
 .Photo-Container p{
   color:#A6A6A6;
-  font-size:clamp(1.5rem,2vw,2rem);
+  font-size:clamp(1.3rem,2vw,2rem);
   text-align:center;
   margin-top:3rem;
 }
@@ -434,38 +434,30 @@ border: none;
   display: flex;
   justify-content: center;
   gap:2rem;
-  /* margin-left:1.5rem;
-  margin-right:1.5rem;  */
 }
 .Photo-Container_First img{
   border-radius:clamp(2rem,3vw,5rem);
   width:clamp(14.3rem,23vw,44.3rem);
-  /* height:clamp(9rem,23vw,30.1rem); */
-  /* object-fit:cover; */
 }
 
-.Photo-Сontainer_Average{
+.Photo-Container_Average{
   display:flex;
   gap:2rem;
-  /* margin-top:2rem; */
   justify-content: center;
 }
-.Photo-Сontainer_Average img{
+.Photo-Container_Average img{
   border-radius:clamp(2rem,3vw,5rem);
   width: clamp(12rem,18vw,35rem);
-  /* height:clamp(13.6rem,1vw,23.6rem) ; */
 }
 
-.Photo-Сontainer_Last{
+.Photo-Container_Last{
   display:flex;
   gap:2rem;
-  /* margin-top:2rem; */
   justify-content: center;
 }
-.Photo-Сontainer_Last img{
+.Photo-Container_Last img{
   border-radius:clamp(2rem,3vw,5rem);
   width: clamp(14.3rem,23vw,44.3rem);
-  /* height:clamp(10.1rem,1vw,30.1rem); */
 }
 /* ===============================Bacgraund======================================================== */
 
@@ -477,7 +469,7 @@ border: none;
  margin-top:13.5rem;
 }
 .heading-h2-p p{
-  font-size:clamp(1.5rem,2vw,2rem);
+  font-size:clamp(1.3rem,2vw,2rem);
   color:#A6A6A6;
   text-align:center; 
   margin-top:3rem;
@@ -485,7 +477,7 @@ border: none;
 }
 .bacgraund{
  background-image:linear-gradient(#0003,#0003),url(./img/story\ photo-1.jpg);
- width:117rem;
+ width:117rem; 
  height:56.7rem; 
  border-radius:5rem;
  margin: auto;
@@ -576,7 +568,7 @@ cursor: pointer;
   text-decoration:none;
   padding:0.7rem 2rem 0.7rem 2rem;
 }
-.telegramfacebookВКонтакте a{
+.telegramfacebookVK a{
   font-size:clamp(1.5rem,2vw,2rem);
   color:#FFFFFF;
   text-decoration: none;
@@ -679,7 +671,7 @@ cursor:pointer;
  margin-bottom:13.5rem;
  gap:3rem;
 }
-/* ========================================================================================================= */
+/* ======================================Footer=================================================================== */
 
 footer{
   background-color:#F4F0E9;
