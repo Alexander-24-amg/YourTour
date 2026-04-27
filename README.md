@@ -1,1 +1,1 @@
-АДРЕС: https://alexander-24-amg.github.io/YourTour/
+https://alexander-24-amg.github.io/YourTour/
